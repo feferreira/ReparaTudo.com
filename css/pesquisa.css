@@ -59,11 +59,12 @@ p{
 }
 nav{
     display: flex;
-    margin: 20px 0 0 0;
+    justify-content: center;
 }
 nav > a > img{
     width: 20px;
     padding-left: 20px;
+    
 }
 /* footer*/ 
 .copyright{
