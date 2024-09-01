@@ -1,0 +1,72 @@
+/* Pesquisa - ReparaTudo - seu ponto ideal para a restauração de (quase) tudo no mundo da informática. */
+body {
+    background-color: rgb(160, 199, 236);
+    font-family: 'Segoe UI', 'Helvetica Neue', helvetica, arial, sans-serif;
+    margin: 0px;
+}
+a:hover{
+    scale: 1.5 1.5;
+    color: black
+}
+
+header{
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.268);
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 110, 255);
+}
+.menu{
+    display: flex;
+ }
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu > li a{
+    display: block;
+    padding: 10px;
+} 
+/* main */
+div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.search > div img{
+    width: 100px;
+    
+}
+.search > h1{
+    text-align: center;
+}
+.voltar{
+    width: 20px;
+}
+p{
+    text-align: center;
+}
+nav{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+nav > a > img{
+    width: 20px;
+    padding-left: 20px;
+}
+/* footer*/ 
+.copyright{
+    display: flex;
+    justify-content: center;
+}

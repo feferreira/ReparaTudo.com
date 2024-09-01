@@ -4,34 +4,39 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Pesquisa - ReparaTudo - seu ponto ideal para a restauração de (quase) tudo no mundo da informática.</title>
+    <title>ReparaTudo</title>
     <link rel='stylesheet' href='../css/pesquisa.css'>
 </head>
 <body>
 
     <!-- barra superior -->
+     <header>
+       
     <img src='../img/logo.svg' width=4%>
     <form action='sub/pesquisa.html'>
         <label for='pesquisar'>Pesquisar:</label>
         <input type='text' id='pesquisar' pesquisar='pesquisar'>
     </form>
-    <ul>
+    <ul class="menu">
         <li><a href='../#orcamento'>Faça seu orçamento</a></li>
         <li><a href='../#trabalhe'>Trabalhe conosco</a></li>
         <li><a href='../#contato'>Contato</a></li>
     </ul>
+    </header>
 
     <!-- área do conteúdo principal -->
     <section class='search'>
+        <div><img src="/img/confuso.png"></div>
         <h1>Oops, não conseguimos encontrar resultados para a sua pesquisa!</h1>
         <p>Tente verificar a escrita, ou busque por outros termos.</p>
-        <img src='../img/search.svg' width=7%>
+        <nav>
+        <a href='/index.html'><img src="/img/back.png"></a></nav>
     </section>
 
     <!-- footer da página -->
     <footer>
       <section class="copyright">
-        <span>Copyright© 2002-2024 ReparaTudo Serviços de Informática. Todos os direitos reservados.</span>
+        <p>Copyright© 2002-2024 ReparaTudo Serviços de Informática. Todos os direitos reservados.</p>
       </section>
     </footer>
 

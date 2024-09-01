@@ -4,23 +4,27 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>ReparaTudo - Seu ponto ideal para a restauração de (quase) tudo no mundo da informática.</title>
-    <link rel='stylesheet' href='css/style.css'>
+    <title>ReparaTudo</title>
+    <link rel='stylesheet' href='css/main.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <!-- barra superior -->
+    <div class='barra-superior'>
     <img src='img/logo.svg' width=4%>
-    <form action='sub/pesquisa.html'>
+    <form class="pesquisa" action='sub/pesquisa.html'>
         <label for='pesquisar'>Pesquisar:</label>
         <input type='text' id='pesquisar' pesquisar='pesquisar'>
     </form>
-    <ul>
+    <nav>
+    <ul class="menu">
         <li><a href='#orcamento'>Faça seu orçamento</a></li>
         <li><a href='#trabalhe'>Trabalhe conosco</a></li>
         <li><a href='#contato'>Contato</a></li>
     </ul>
+    </nav>
+    </div>
 
     <!-- header da página -->
     <header>
@@ -34,33 +38,35 @@
     <section class='service-description'>
         <h1>Nossos serviços</h1>
     </section>
+    <div class="conteudo">
     <section class='desktop'>
-        <img src='img/desktop.svg' width="12%">
+        <img src='/img/computer.jpeg' width="12%">
         <h1><a href='sub/desktop.html'>Desktop</a></h1>
         <p>Oferecemos serviços especializados de conserto de peças de desktop, incluindo diagnóstico e reparo de hardware, substituição de componentes como placas-mãe, fontes de alimentação, e placas gráficas, além de limpeza interna e otimização do sistema. Nossa equipe de técnicos qualificados garante um atendimento rápido e eficiente para que seu computador volte a funcionar perfeitamente.</p>
     </section>
     <section class='laptop'>
-        <img src='img/laptop.svg' width="12%">
+        <img src='./img/notebook.jpeg' width="12%">
         <h1><a href='sub/laptop.html'>Notebook</a></h1>
         <p>Oferecemos serviços de reparo de notebooks com rapidez e eficiência. Nossa equipe de técnicos especializados resolve problemas como superaquecimento, falhas no HD/SSD e substituição de telas, utilizando peças de alta qualidade. Garantimos um atendimento personalizado e orçamento justo, para que você possa voltar ao trabalho sem preocupações.</p>
     </section>
     <section class='mobile'>
-        <img src='img/mobile.svg' width="12%">
+        <img src='./img/cellphones.jpeg' width="12%">
         <h1><a href='sub/mobile.html'>Celular</a></h1>
         <p>Seu celular está com problemas? Oferecemos reparos rápidos e eficientes para diversos tipos de falhas, como tela quebrada, bateria com defeito e problemas no sistema. Utilizamos peças originais para garantir a melhor qualidade e durabilidade no conserto. Aproveite a tranquilidade de um serviço de qualidade e tenha seu celular funcionando como novo!</p>
     </section>
+    </div>
 
     <!-- área do orçamento -->
     <section class='orcamento'>
         <h1 id='orcamento'>Faça seu orçamento.</h1>
         <p>Para um orçamento rápido e sem compromisso, entre em contato conosco pelo WhatsApp! Estamos prontos para ajudar você.</p>
-        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Fazer orçamento agora</a>
+        <p><a class=' link-orcamento'href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Fazer orçamento agora</a></p>
     </section>
 
     <!-- área do trabalhe conosco -->
     <section class='trabalhe'>
         <h1 id='trabalhe'>Seja parte da equipe!</h1>
-        <p>Entre em contato conosco em gestão@reparatudo.com.br e envie seu currículo</p>
+        <p>Entre em contato conosco em <a href="https://mail.google.com/mail/u/0/">gestão@reparatudo.com.br</a> e envie seu currículo</p>
     </section>
 
     <!-- footer da página -->
@@ -68,19 +74,28 @@
         <section class="footer">
           <section class="address">
             <h1>Endereço</h1>
+            <div class="mapa">
+            <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1979.4582707790096!2d-34.87499884397443!3d-7.135649594847398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB!5e0!3m2!1sen!2sbr!4v1521749915692"
+  width="600"
+  height="450"
+  frameborder="0"
+  allowfullscreen
+>
+</iframe></div>
             <p>Av. Primeiro de Maio, 720</p>
           </section>
           <section class="social">
             <h1 id='contato'>Nos siga nas nossas redes sociais</h1>
-            <ul>
+            <ul class="social-footer">
               <li>
-                <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
