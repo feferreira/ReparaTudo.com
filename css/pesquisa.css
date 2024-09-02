@@ -1,17 +1,18 @@
 /* Pesquisa - ReparaTudo - seu ponto ideal para a restauração de (quase) tudo no mundo da informática. */
 body {
-    background-color: rgb(160, 199, 236);
-    font-family: 'Segoe UI', 'Helvetica Neue', helvetica, arial, sans-serif;
+    background-color: rgb(40, 54, 68);
+    font-family: 'Corbel', helvetica, arial, sans-serif;
     margin: 0px;
+    color: #fff;
 }
 a:hover{
     scale: 1.5 1.5;
-    color: black
+    color: rgb(255, 240, 34);
 }
 
 header{
    display: flex;
-   background-color: rgba(255, 255, 255, 0.268);
+   background-color: rgba(0, 0, 0, 0.74);
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -68,6 +69,7 @@ nav > a > img{
 }
 /* footer*/ 
 .copyright{
-    display: flex;
     justify-content: center;
+    background-color: #000;
+    margin-top: 19%;
 }
