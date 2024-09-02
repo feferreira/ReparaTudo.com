@@ -70,7 +70,6 @@ section > h1{
 }
 
 img{
-    
     max-width: 100%;
     display: block;
 }
@@ -80,6 +79,7 @@ img{
 }
 .conteudo > section{
     flex: 1 1 250px;
+    flex-basis: 30%;
 }
 
 section > img{
@@ -88,22 +88,25 @@ section > img{
 }
 /* footer*/
 .copyright{
+    justify-content: center;
     background-color: black;
     text-align: center;
+    margin: 4% 0 0 0;
 }
-.social-footer{
+
+nav{
     display: flex;
 }
-.social > ul {
-    justify-content: center;
+nav > a > img{
+    width: 40px;
+    padding-left: 20px;
 }
-.social > ul >li{
-    padding: 0 10px;
-}
+
 p{
     text-align: center;
+    margin: 0 30px 0 30px;
 }
 a:hover{
     scale: 1.5 1.5;
-    color: rgb(255, 240, 34)
+    color: rgb(255, 240, 34);
 }

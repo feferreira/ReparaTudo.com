@@ -15,7 +15,7 @@ header{
    background-color: rgba(0, 0, 0, 0.74);
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 20px;
    align-items: center;
 }
@@ -25,7 +25,7 @@ ul{
 
 a{
     text-decoration: none;
-    color:rgb(0, 110, 255);
+    color:#0af;
 }
 .menu{
     display: flex;
@@ -52,9 +52,7 @@ div{
 .search > h1{
     text-align: center;
 }
-.voltar{
-    width: 20px;
-}
+
 p{
     text-align: center;
 }
@@ -63,7 +61,7 @@ nav{
     justify-content: center;
 }
 nav > a > img{
-    width: 20px;
+    width: 40px;
     padding-left: 20px;
     
 }
@@ -71,5 +69,6 @@ nav > a > img{
 .copyright{
     justify-content: center;
     background-color: #000;
-    margin-top: 19%;
+    text-align: center;
+    margin: 18% 0 0 0;
 }
