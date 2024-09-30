@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(40, 54, 68);
+    color: #fff;
+    font-family: 'Corbel', helvetica, arial, sans-serif;
+}
+
+header .header-principal {
+    background-image: url(../img/header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 40vh;
+    min-height: 300px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.788) 0.2em 0.2em 0.2em;
+}
+
+.conteudo {
+    background-color: rgb(17, 23, 29);
+    color: #fff;
+}
+
+.grow {
+    transition: transform 1s;
+    will-change: scale;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
+
+.shrink {
+    transition: transform 1s;
+    will-change: transform;
+}
+   
+.shrink:hover {
+    transform: scale(0.8);
+}
+
+.gray-scale {
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+   
+.gray-scale:hover {
+    filter: grayscale(0%);
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#0d6efd;
+}
+
+ul{
+    list-style: none;
+}
+
+.mapa iframe{
+    width: 100%;
+}
+
+.copyright{
+    background-color: #000;
+    text-align: center;
+    color: #fff
+}
+
+.social-footer{
+    display: flex;
+}
+
+.social > ul {
+    justify-content: center;
+}
+
+.social > ul >li{
+    padding: 0 10px;
+}
+
+a:hover{
+    scale: 1.05 1.05;
+}
